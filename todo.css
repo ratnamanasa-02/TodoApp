@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    background-image: url("images/todo7.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color:cornsilk;
+}
+button{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#plus{
+    background-color: green;
+}
+.minus{
+    background-color: red;
+}
+button i{
+    color:cornsilk;
+    font-size: larger;
+}
+input{
+    width: 400px;
+    margin-left:100px;
+    text-align: center;
+    background-color: rgb(63, 0, 122);
+    font-size: larger;
+    color:white;
+}
+input::placeholder{
+    font-size: larger;
+    color:white;
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+    /* margin-left: 625px; */
+    font-size: 25px;
+    color:cornsilk;
+}
+li{
+    width:400px;
+    background-color: rgb(111, 75, 144);
+    /* font-size: 25px; */
+    /* margin-left:100px; */
+    border-left:2px solid black;
+    border-top:2px solid black;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-bottom:20px;
+    padding-top:2px;
+    height:45px;
+    
+}
+li button{
+    margin-left: 415px;
+    /* margin-bottom: 400px; */
+    /* margin-right: 0px; */
+    position:relative;
+    
+    bottom:30px;
+}
