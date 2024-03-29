@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url("/todo7.jpg");
+    background-color:cyan;
     background-size: cover;
     display: flex;
     flex-direction: column;
